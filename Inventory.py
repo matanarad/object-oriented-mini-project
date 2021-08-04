@@ -12,6 +12,11 @@ class Inventory:
 
     inventory: dict[str, Product] = {}
 
+    def addNewItemToInventory():
+        p1 = Product(input("barCode: "), input("name: "), input("Category: "),
+                     input("amaount: "), input("price: "))
+        Inventory.addToInventory(p1)
+
     def getNamedList():
         namedList = []
         for key, i in Inventory.inventory.items():
@@ -34,6 +39,5 @@ class Inventory:
             if float(product.stock) < limit:
                 reFillListDict[barCode] = product
                 reFillList.append(product.name)
-        print(reFillListDict)
         print(reFillList)
         return reFillList
