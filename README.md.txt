@@ -1,12 +1,14 @@
 Project goals:
+
     Demonstrate knowledge in Python and in object-oriented programming
-    All code is written in Python
+    All code is written in Python and the style guide is PEP8
     And the objects used are
         - Product
         - Inventory
         - Shopping Cart
 
 General description:
+
     The purpose of the code is to demonstrate a store management system.
     from the side of the store owner and his control over the inventory of the store.
     And also from the side of the customer who wants to buy products in the store.
