@@ -26,3 +26,5 @@ costomer side:
     2.orderName.addToOrder(barCode) -> add item to cart by barCode
     3.orderName.delFromOrder(barCode) -> del item from cart by barCode
     4.orderName.printOrder() -> print order details
+
+to use any of the functions uncomment the desired line in main.py file.
