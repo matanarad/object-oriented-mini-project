@@ -1,0 +1,1 @@
+{"1": {"barCode": "1", "name": "nutella", "category": "chocolate", "stock": "20", "price": "4"}, "2": {"barCode": "2", "name": "water", "category": "drinks", "stock": "1", "price": "3.5"}, "3": {"barCode": "3", "name": "bread", "category": "basic", "stock": "1", "price": "1"}, "4": {"barCode": "4", "name": "test", "category": "test", "stock": "1", "price": "5"}}
