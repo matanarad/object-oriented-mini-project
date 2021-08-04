@@ -20,7 +20,7 @@ class Storage:
         f.write(json_object)
         f.close()
 
-    def readFile() -> Inventory:
-        with open('inventoryList.json') as json_file:
+    def readFile():
+        with open('./inventoryList.json') as json_file:
             inventoryJson = json.load(json_file)
         Storage.inventoryDecoder(inventoryJson)
